@@ -1,0 +1,26 @@
+name: Back Test
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  back_test:
+    name: Run BackTest
+    steps:
+      - uses: portfoliotree/backtest-action@v0.1.0-alpha.1
+
+      - name: Save Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: backtest_results
+          path: backtest_results.json
+          retention-days: 7
+      - name: Save Returns Table
+        uses: actions/upload-artifact@v3
+        with:
+          name: backtest_returns
+          path: returns.csv
+          retention-days: 7

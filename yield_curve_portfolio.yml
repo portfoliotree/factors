@@ -1,0 +1,15 @@
+id: 60230c34624d84c4995411cd
+type: Portfolio
+spec:
+  name: Yield Curve Factor
+  assets:
+    - type: Security
+      id: TLT
+    - type: Security
+      id: IEF
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [2, -4.5, 3.5]

@@ -1,0 +1,7 @@
+id: 606e8fc118182c10f26a392e
+type: Portfolio
+spec:
+  name: Risk Free
+  assets:
+    - type: Security
+      id: SHY

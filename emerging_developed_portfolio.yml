@@ -1,0 +1,15 @@
+id: 6118d8bbf038b26d3a0e1d11
+type: Portfolio
+spec:
+  name: "Emerging (Developed) Factor"
+  assets:
+    - type: Security
+      id: EEM
+    - type: Security
+      id: IDEV
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [1, -1, 1]

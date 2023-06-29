@@ -1,0 +1,15 @@
+id: 5fa8eb6da9cf999a0c632a16
+type: Portfolio
+spec:
+  name: Credit Factor
+  assets:
+    - type: Security
+      id: LQD
+    - type: Security
+      id: IEF
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [1, -1, 0]

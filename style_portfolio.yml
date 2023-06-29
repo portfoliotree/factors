@@ -1,0 +1,15 @@
+id: 5fa77cdce845242b9b33e027
+type: Portfolio
+spec:
+  name: Style Factor
+  assets:
+    - type: Security
+      id: IWD
+    - type: Security
+      id: IWF
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [1, -1, 1]

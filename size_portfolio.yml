@@ -1,0 +1,15 @@
+id: 5fa786b61a7dd8bfa14e24e2
+type: Portfolio
+spec:
+  name: Size Factor
+  assets:
+    - type: Security
+      id: IWM
+    - type: Security
+      id: IWB
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [1, -1, 1]

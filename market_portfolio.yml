@@ -1,0 +1,7 @@
+id: 5fa7871f1a7dd8bfa14e24e3
+type: Portfolio
+spec:
+  name: Market Factor
+  assets:
+    - type: Security
+      id: ACWI

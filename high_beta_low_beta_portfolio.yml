@@ -1,0 +1,15 @@
+id: 60fc8d393afeffc0cd598c77
+type: Portfolio
+spec:
+  name: "High Beta (Low Beta)"
+  assets:
+    - type: Security
+      id: SPHB
+    - type: Security
+      id: SPLV
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [0.5, -1, 1.5]

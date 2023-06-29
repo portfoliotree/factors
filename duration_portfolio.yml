@@ -1,0 +1,7 @@
+id: 5fa83b7ea9cf999a0c632a0f
+type: Portfolio
+spec:
+  name: Duration Factor
+  assets:
+    - type: Security
+      id: IEF

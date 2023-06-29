@@ -1,0 +1,7 @@
+id: 60fc8aba3afcb748da70065d
+type: Portfolio
+spec:
+  name: Vol Factor
+  assets:
+    - type: Security
+      id: VXX

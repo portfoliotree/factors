@@ -1,0 +1,15 @@
+id: 5fa83d04a9cf999a0c632a12
+type: Portfolio
+spec:
+  name: Inflation Factor
+  assets:
+    - type: Security
+      id: TIP
+    - type: Security
+      id: IEF
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [1, -1, 1]

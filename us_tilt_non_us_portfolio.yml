@@ -1,0 +1,15 @@
+id: 60ae9aa4dc3fe02bbf72dc00
+type: Portfolio
+spec:
+  name: "U.S. Tilt (Non U.S.)"
+  assets:
+    - type: Security
+      id: IWV
+    - type: Security
+      id: ACWX
+    - type: Security
+      id: SHY
+  policy:
+    weights_algorithm: ConstantWeights
+    rebalancing_interval: Daily
+    weights: [1, -1, 1]
