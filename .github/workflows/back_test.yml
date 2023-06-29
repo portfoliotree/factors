@@ -9,6 +9,7 @@ on:
 jobs:
   back_test:
     name: Run BackTest
+    runs-on: ubuntu-latest
     steps:
       - uses: portfoliotree/backtest-action@v0.1.0-alpha.1
 
@@ -17,10 +18,11 @@ jobs:
         with:
           name: backtest_results
           path: backtest_results.json
-          retention-days: 7
+          retention-days: 8
+
       - name: Save Returns Table
         uses: actions/upload-artifact@v3
         with:
           name: backtest_returns
           path: returns.csv
-          retention-days: 7
+          retention-days: 8
