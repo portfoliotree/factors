@@ -12,4 +12,4 @@ spec:
   policy:
     weights_algorithm: ConstantWeights
     rebalancing_interval: Daily
-    weights: [1, -0.5, 0.5]
+    weights: [100, -50, 50]

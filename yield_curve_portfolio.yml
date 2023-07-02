@@ -12,4 +12,5 @@ spec:
   policy:
     weights_algorithm: ConstantWeights
     rebalancing_interval: Daily
-    weights: [2, -4.5, 3.5]
+    # TODO: check production weights
+    weights: [200, -45, 35]
